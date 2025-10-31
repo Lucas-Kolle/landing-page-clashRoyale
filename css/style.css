@@ -1,0 +1,57 @@
+:root{
+    --primary-color: #143064;
+    --secundary-color: #006AB2;
+    --tertiary-color: #D7B14B;
+}
+header{
+    height: 15vh;
+    background-color: var(--primary-color);
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
+   justify-content: space-between;
+}
+.logos{
+    display: flex;
+    gap: 40px;
+}
+.logos img{
+    height: 70px;
+    width: 70px;
+}
+.clashRoyale img{
+    position: absolute;
+    width: 620px;
+    height: 270px;
+    top:60px;
+    left: 38%;
+}
+.menu-header{
+    display: flex;
+    gap: 40px;
+}
+.home{
+    font-size: 50px;
+    color: var(--tertiary-color);
+}
+.characters{
+    font-size: 50px;
+    color: white;
+}
+.media{
+    font-size: 50px;
+    color: white;
+}
+.store{
+    font-size: 50px;
+    color: white;
+}
+main{
+    height: 60vh;
+    background-color: var(--secundary-color);
+}
+footer{
+    height: 25vh;
+    background-color:var(--tertiary-color);
+}
