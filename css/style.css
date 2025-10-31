@@ -48,10 +48,52 @@ header{
     color: white;
 }
 main{
-    height: 60vh;
+    height: 70vh;
     background-color: var(--secundary-color);
+    display: flex;
+}
+.left{
+    height:100%;
+    width: 50%;
+    background-color: aqua;
+}
+.topo-left{
+    height: 40%;
+    background-color: teal;
+}
+.baixo-left{
+    height: 60%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+.personagens-div img{
+    height: 200px;
+    width: 200px;
+}
+.personagens-metade-div img{
+    height: 200px;
+    width: 100px;
+}
+.center{
+    height: 100%;
+    width: 50%;
+    background-color: bisque;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
+.topo-right{
+    height: 40%;
+    background-color: yellow;
+}
+.baixo-right{
+    height: 60%;
+    background-color: palevioletred;
 }
 footer{
-    height: 25vh;
+    height: 15vh;
     background-color:var(--tertiary-color);
 }
