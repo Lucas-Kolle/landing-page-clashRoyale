@@ -75,6 +75,24 @@ main{
     height: 200px;
     width: 100px;
 }
+.descricao-eskeletons{
+    font-size: 30px;
+    color:white;
+}
+.descricao-gigant{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.fundo-goblins{
+    height: 90%;
+    width: 100%;
+}
+.descricao-goblins{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
 .center{
     height: 100%;
     width: 50%;
