@@ -55,32 +55,58 @@ main{
 .left{
     height:100%;
     width: 50%;
-    background-color: aqua;
 }
 .topo-left{
     height: 40%;
-    background-color: teal;
     display: flex;
     flex-direction: column;
 }
 .prev-text{
     color: var(--tertiary-color);
-    font-size: 24px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 .topo-left img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5px;
 }
 .arqueira-nome{
     color: var(--tertiary-color);
     font-size: 64px;
+    text-align: center;
+    margin-top: 150px;
 }
 .descricao-arqueira{
     display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.rarity-text{
+    margin-left: 280px;
+    color: var(--tertiary-color);
+    font-size: 24px;
+}
+.common-text{
+    color: white;
+    font-size: 24px;
+}
+.barra-text{
+    font-size: 24px;
+    color: white;
+}
+.type-text{
+    color: var(--tertiary-color);
+    font-size: 24px;
+}
+.trop-text{
+    color: white;
+    font-size: 24px;
 }
 .baixo-left{
     height: 60%;
-    background-color: greenyellow;
     display: flex;
     justify-content: space-between;
 }
@@ -96,14 +122,21 @@ main{
     font-size: 30px;
     color:white;
 }
+.fundo-esqueleto{
+    height: 200px;
+    width: 50px;
+    background-color: #BFBFBF;
+}
+.fundo-goblins{
+    height: 200px;
+    width: 200px;
+    background-color: #78AE38;
+    border-radius: 40px;
+}
 .descricao-gigant{
     font-size: 30px;
     color: white;
     text-align: center;
-}
-.fundo-goblins{
-    height: 90%;
-    width: 100%;
 }
 .descricao-goblins{
     font-size: 30px;
@@ -113,7 +146,49 @@ main{
 .center{
     height: 100%;
     width: 50%;
-    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+.top-characters-text{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 115px;
+}
+.circulo-tracejado{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.circulo-verde{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.arqueira-img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.barra-de-rolagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 80%;
+}
+.barra-de-rolagem img{
+    height: 7px;
+    width: 7px;
 }
 .right{
     height: 100%;
