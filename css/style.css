@@ -60,6 +60,23 @@ main{
 .topo-left{
     height: 40%;
     background-color: teal;
+    display: flex;
+    flex-direction: column;
+}
+.prev-text{
+    color: var(--tertiary-color);
+    font-size: 24px;
+}
+.topo-left img{
+    width: 80px;
+    height: 80px;
+}
+.arqueira-nome{
+    color: var(--tertiary-color);
+    font-size: 64px;
+}
+.descricao-arqueira{
+    display: flex;
 }
 .baixo-left{
     height: 60%;
