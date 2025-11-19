@@ -193,7 +193,7 @@ main{
 .right{
     height: 100%;
     width: 50%;
-    background-color: aquamarine;
+    background-color:brown ;
 }
 .topo-right{
     height: 40%;
@@ -229,7 +229,7 @@ main{
 }
 .baixo-right{
     height: 60%;
-    background-color: palevioletred;
+    
 }
 footer{
     height: 15vh;
