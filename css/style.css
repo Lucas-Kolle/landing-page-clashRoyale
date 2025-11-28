@@ -382,7 +382,6 @@ footer{
     background-color: #78AE38;
     border-radius: 30px;
     }
-    }
     .descricao-goblins{
     font-size: 30px;
     color: white;
@@ -393,6 +392,7 @@ footer{
     font-size: 64px;
     position: absolute;
     top: 55px;
+    left: 200px;
     }
     .circulo-tracejado{
     width: 380px;
@@ -421,10 +421,68 @@ footer{
     .barra-de-rolagem{
     display: none;
     }
+    .texto-explicativo{
+        display: none;
+    }
+    .texto-explicativo-final{
+        display: none;
+    }
+    .next-text{
+    color: var(--tertiary-color);
+    font-size: 25px;
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 100px;
+    }
+    .topo-right img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left:665px;
+    }
+    .principe{
+        display: none;
+    }
+    .servos{
+        display: none;
+    }
+    .bruxa{
+        margin-left: 80px;
+    }
+    .fundo-bruxa{
+    height: 160px;
+    width: 160px;
+    background-color: #6660B2;
+    border-radius: 30px;
+    }
+    .fundo-bruxa img{
+    height: 160px;
+    width: 160px;
+    }
     footer{
     height: 17vh;
     background-color:var(--secundary-color);
     display: flex;
     justify-content: center;
+    }
+    .descricao-footer{
+    gap: 20px;
+    }
+    .descricao-footer img{
+    height: 25px;
+    width: 25px;
+    }
+    .descricao-footer div{
+    display: flex;
+    gap: 2px;
+    }
+    .dourado-text{
+    font-size: 25px;
+    color: var(--tertiary-color);
+    }
+    .branco-text{
+    font-size: 25px;
+    color: white;
     }
 }
