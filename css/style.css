@@ -231,6 +231,11 @@ main{
     justify-content: space-between;
     
 }
+.bruxa p{
+    color: white;
+    font-size: 30px;
+     text-align: center;
+}
 .fundo-bruxa{
     height: 200px;
     width: 200px;
@@ -241,6 +246,11 @@ main{
     height: 200px;
     width: 200px;
 }
+.principe p{
+    color: white;
+    font-size: 30px;
+     text-align: center;
+}
 .fundo-principe{
     height: 200px;
     width: 200px;
@@ -250,6 +260,11 @@ main{
 .fundo-principe img{
     height: 200px;
     width: 200px;
+}
+.servos p{
+    color: white;
+    font-size: 30px;
+    text-align:end;
 }
 .fundo-servos{
     height: 200px;
@@ -264,5 +279,30 @@ main{
 }
 footer{
     height: 15vh;
-    background-color:var(--tertiary-color);
+    background-color:var(--secundary-color);
+    display: flex;
+    justify-content: center;
+}
+.descricao-footer{
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+
+}.descricao-footer img{
+    height: 50px;
+    width: 50px;
+}
+.descricao-footer div{
+    display: flex;
+    gap: 5px;
+}
+.dourado-text{
+    font-size: 50px;
+    color: var(--tertiary-color);
+}
+.branco-text{
+    font-size: 50px;
+    color: white;
 }
