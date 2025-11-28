@@ -110,7 +110,11 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.personagens-div img{
+.gigante img{
+    height: 200px;
+    width: 200px;
+}
+.goblins img{
     height: 200px;
     width: 200px;
 }
@@ -339,6 +343,18 @@ footer{
     height: 72vh;
     background-color: var(--secundary-color);
     display: flex;
+    }
+    .arqueira-nome{
+        display: none;
+    }
+    .descricao-arqueira{
+        display: none;
+    }
+    .personagens-metade-div{
+        display: none;
+    }
+    .gigante{
+        display: none;
     }
     footer{
     height: 17vh;
