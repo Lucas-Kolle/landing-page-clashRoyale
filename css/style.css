@@ -320,7 +320,7 @@ footer{
     padding-left: 20px;
     padding-right: 0px;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
     }
     .logos img{
     height: 60px;
@@ -331,7 +331,7 @@ footer{
     }
 
     .clashRoyale img{
-     width: 420px;
+    width: 420px;
     height: 170px;
     top:15px;
     left: 20%;
@@ -345,16 +345,81 @@ footer{
     display: flex;
     }
     .arqueira-nome{
-        display: none;
+    display: none;
     }
     .descricao-arqueira{
-        display: none;
+    display: none;
+    }
+    .prev-text{
+    color: var(--tertiary-color);
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 100px;
+    }
+    .topo-left img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 5px;
     }
     .personagens-metade-div{
         display: none;
     }
     .gigante{
         display: none;
+    }
+    .goblins{
+        margin-left: 20px;
+    }
+    .goblins img{
+    height: 160px;
+    width: 160px;
+    }
+    .fundo-goblins{
+    height: 160px;
+    width: 160px;
+    background-color: #78AE38;
+    border-radius: 30px;
+    }
+    }
+    .descricao-goblins{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    }
+    .top-characters-text{
+    color: white;
+    font-size: 64px;
+    position: absolute;
+    top: 55px;
+    }
+    .circulo-tracejado{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    }
+    .circulo-verde{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    }
+    .arqueira-img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    }
+    .barra-de-rolagem{
+    display: none;
     }
     footer{
     height: 17vh;
