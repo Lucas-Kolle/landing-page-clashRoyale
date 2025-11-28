@@ -193,11 +193,9 @@ main{
 .right{
     height: 100%;
     width: 50%;
-    background-color:brown ;
 }
 .topo-right{
     height: 40%;
-    background-color: blue;
     display: flex;
     flex-direction: column;
 }
@@ -229,7 +227,40 @@ main{
 }
 .baixo-right{
     height: 60%;
+    display: flex;
+    justify-content: space-between;
     
+}
+.fundo-bruxa{
+    height: 200px;
+    width: 200px;
+    background-color: #6660B2;
+    border-radius: 40px;
+}
+.fundo-bruxa img{
+    height: 200px;
+    width: 200px;
+}
+.fundo-principe{
+    height: 200px;
+    width: 200px;
+    background-color: #917D40;
+    border-radius: 40px;
+}
+.fundo-principe img{
+    height: 200px;
+    width: 200px;
+}
+.fundo-servos{
+    height: 200px;
+    width: 100px;
+    background-color: #619ED7;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.fundo-servos img{
+    height: 200px;
+    width: 100px;
 }
 footer{
     height: 15vh;
