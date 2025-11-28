@@ -306,3 +306,44 @@ footer{
     font-size: 50px;
     color: white;
 }
+
+/*responsividade do site*/
+@media (max-width: 1024px){ /*resolução tablet (no máximo 1024 px)*/
+    header{
+    height: 11vh;
+    background-color: var(--primary-color);
+    display: flex;
+    padding-left: 20px;
+    padding-right: 0px;
+    align-items: center;
+   justify-content: space-between;
+    }
+    .logos img{
+    height: 60px;
+    width: 60px;
+    }
+    .logo-instagram{
+        margin-left: 360px;
+    }
+
+    .clashRoyale img{
+     width: 420px;
+    height: 170px;
+    top:15px;
+    left: 20%;
+    }
+    .menu-header{
+        display: none;
+    }
+    main{
+    height: 72vh;
+    background-color: var(--secundary-color);
+    display: flex;
+    }
+    footer{
+    height: 17vh;
+    background-color:var(--secundary-color);
+    display: flex;
+    justify-content: center;
+    }
+}
