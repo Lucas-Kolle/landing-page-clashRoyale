@@ -345,10 +345,19 @@ footer{
     display: flex;
     }
     .arqueira-nome{
-    display: none;
+    position: absolute;
+    left: 50%;
+    top: 560px;
+    transform: translate(-50%);
+    font-size: 40px;
     }
     .descricao-arqueira{
-    display: none;
+    position: absolute;
+    right: 45px;
+    top: 820px;
+    }
+    .descricao-arqueira p{
+        font-size: 30px;
     }
     .prev-text{
     color: var(--tertiary-color);
