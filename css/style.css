@@ -517,4 +517,82 @@ footer{
     top:25px;
     left: 25%;
     }
+
+    .arqueira-nome{
+    display: none;
+    }
+    .descricao-arqueira{
+    display: none;
+    }
+
+    .prev-text{
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 70px;
+    }
+    .topo-left img{
+    width: 65px;
+    height: 70px;
+    top: 132px;
+    left: 5px;
+    }
+
+    .goblins{
+        display: none;
+    }
+
+    .top-characters-text{
+    font-size: 28px;
+    top: 3px;
+    left: 100px;
+    }
+
+    .circulo-tracejado{
+    width: 270px;
+    height: 270px;
+    }
+    .circulo-verde{
+    width: 230px;
+    height: 230px;
+    }
+    .arqueira-img{
+    width: 220px;
+    height: 220px;
+    }
+
+    .next-text{
+    font-size: 17px;
+    margin-right: 40px;
+    margin-top: 70px;
+    }
+    .topo-right img{
+    width: 65px;
+    height: 70px;
+    top: 132px;
+    left: 305px;
+    }
+
+    .bruxa{
+        display: none;
+    }
+
+    .descricao-footer{
+    gap: 9px;
+    }
+    .descricao-footer img{
+    height: 13px;
+    width: 13px;
+    }
+    .descricao-footer div{
+    display: flex;
+    gap: 1px;
+    }
+    .dourado-text{
+    font-size: 13px;
+    color: var(--tertiary-color);
+    }
+    .branco-text{
+    font-size: 13px;
+    color: white;
+    }
 }
