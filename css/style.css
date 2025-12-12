@@ -349,15 +349,15 @@ footer{
     left: 50%;
     top: 560px;
     transform: translate(-50%);
-    font-size: 40px;
+    font-size: 65px;
     }
     .descricao-arqueira{
     position: absolute;
-    right: 45px;
+    right: 110px;
     top: 820px;
     }
     .descricao-arqueira p{
-        font-size: 30px;
+        font-size: 35px;
     }
     .prev-text{
     color: var(--tertiary-color);
