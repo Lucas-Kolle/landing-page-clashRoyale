@@ -495,3 +495,26 @@ footer{
     color: white;
     }
 }
+
+@media (max-width: 480px){ /*resolução mobile (no máximo 480px)*/
+
+    .logos{
+        gap: 5px;
+    }
+
+    .logos img{
+    height: 35px;
+    width: 35px;
+    }
+
+    .logo-instagram{
+        margin-left: 180px;
+    }
+
+    .clashRoyale img{
+    width: 180px;
+    height: 85px;
+    top:25px;
+    left: 25%;
+    }
+}
